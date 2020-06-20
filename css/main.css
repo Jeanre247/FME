@@ -62,7 +62,7 @@ header .highlight, header .current a{
 /*Showcase*/
 #showcase{
   min-height: 400px;
-  background: url('../img/uni.jpg') -550px -380px;
+  background: url('../img/uni.jpg');
   text-align: center;
   color: #fafafa;
 }
@@ -88,7 +88,7 @@ header .highlight, header .current a{
 }
 
 footer{
-  position: absolute;
+  position: relative;
   bottom:0;
   margin-top: 20px;
   background: #fafafa;
