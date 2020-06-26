@@ -38,6 +38,11 @@ body {
     color: #3c7a67;
     font-size: 50px;
   }
+  
+  .logo-medium {
+    color: #3c7a67;
+    font-size: 100px;
+  }
   .logo {
     color: #3c7a67;
     font-size: 200px;
@@ -76,6 +81,7 @@ body {
     border: 1px solid #3c7a67; 
     border-radius:0 !important;
     transition: box-shadow 0.5s;
+	height: 100%;
   }
   .panel:hover {
     box-shadow: 5px 0px 40px rgba(0,0,0, .2);
