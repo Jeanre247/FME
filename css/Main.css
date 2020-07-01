@@ -78,6 +78,9 @@ body {
     transition: box-shadow 0.5s;
 	height: 100%;
   }
+  .panel-body  {
+    word-break:break-all
+  }
   .panel:hover {
     box-shadow: 5px 0px 40px rgba(0,0,0, .2);
   }
@@ -175,9 +178,19 @@ body {
       width: 100%;
       margin-bottom: 35px;
     }
+	.rotate {
+    font-size: 6px;
+    color: #ffffff;
+
+    }
   }
   @media screen and (max-width: 480px) {
     .logo {
       font-size: 150px;
+    }
+	.rotate {
+    font-size: 10px;
+    color: #ffffff;
+	writing-mode: horizontal-tb; 
     }
   }
